@@ -30,7 +30,7 @@ body {
 }
 
 .header {
-  background: #1e3a5f;
+  background: #ff8c00;
   color: white;
   padding: 2rem;
   border-radius: 8px;
