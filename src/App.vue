@@ -42,6 +42,7 @@
           </li>
           <li class="nav-item"><a href="#pricing">Pricing</a></li>
           <li class="nav-item"><router-link to="/games">Games</router-link></li>
+          <li class="nav-item"><router-link to="/todos">Todos</router-link></li>
         </ul>
         <div class="navbar-actions">
           <a href="#login" class="btn-login">Log in</a>
@@ -80,6 +81,7 @@
         <li><a href="#project-management" @click="mobileMenuOpen = false">Project Management</a></li>
         <li><a href="#pricing" @click="mobileMenuOpen = false">Pricing</a></li>
         <li><router-link to="/games" @click="mobileMenuOpen = false">Games</router-link></li>
+        <li><router-link to="/todos" @click="mobileMenuOpen = false">Todos</router-link></li>
         <li><a href="#login" @click="mobileMenuOpen = false">Log in</a></li>
         <li><a href="#signup" class="btn-signup" @click="mobileMenuOpen = false">Start for free</a></li>
       </ul>
